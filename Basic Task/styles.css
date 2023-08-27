@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Navigation bar  */
+
+nav {
+    background-color: #0101af;
+    padding: 0 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* section 2 */
+
+/* subsection 1 */
+.subsection1 h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 4rem;
+    background-color: #f1f2f3;
+}
+
+/* subsection2 */
+.subsection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f3;
+}
+
+.container {
+    /* border: 2px solid red; */
+    margin: 10px;
+    height: 440px;
+    width: 32.5%;
+    display: inline-block;
+    background-size: cover;
+}
+.container2 {
+    /* border: 2px solid red; */
+    margin: 10px;
+    height: 440px;
+    width: 25%;
+    display: inline-block;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.container13items {
+    /* border: 2px solid green; */
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textright {
+    text-align: left;
+    padding: 10px;
+}
+
+.textleft {
+    text-align: right;
+    padding: 10px;
+}
+
+/* section 3 */
+
+/* Third ka subsection 1 */
+
+.third-subsection1 h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 4rem;
+}
+
+/* third ka subsection 2 */
+
+.third-subsection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.third-container {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0101af;
+    padding: 50px;
+    color: white;
+}
+.fourthsection h1 {
+    font-size: 2.5rem;
+    display: block;
+    padding: 20px;
+}
+.fourthsection div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourthsection div {
+    margin: 10px;
+}
+.first-section {
+    background-color: #0101af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.first-container h1 {
+    font-size: 3rem;
+    padding: 30px;
+}
+.first-container p {
+    padding: 30px;
+}
